@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./bg.jpg");
+    font-family: 'Roboto', sans-serif;
+    color: rgb(39, 39, 39);
+}
+
+.bgImage{
+    backdrop-filter: blur(4px) saturate(170%);
+    -webkit-backdrop-filter: blur(4px) saturate(170%);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: 5px;
+    background: -webkit-linear-gradient(298deg, rgb(35, 104, 42) 0%, rgb(52, 151, 184)100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header1 {
+    margin-top: 30px;
+    background-color: rgba(255, 228, 196, 0.548);
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px 5px rgba(255, 228, 196, 0.774);
+    padding: 5px 30px;
+}
+
+header {
+    width: 90vw;
+    height: 400px;
+    background-color: rgba(255, 228, 196, 0.548);
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px 5px rgba(255, 228, 196, 0.774);
+    margin: 5vh;
+    padding: 30px
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.topOfTheMorning {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    font-size: 35px;
+    display: flex;
+}
+
+.blueRose {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blueRose > p {
+    font-size: 20px;
+}
